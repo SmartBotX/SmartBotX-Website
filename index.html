@@ -19,7 +19,7 @@
   </head>
   <body>
     <!--Navigation-->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" id="navi">
       <div class="container">
         <a class="navbar-brand logo" href="#">
           <img class"img-fluid" src="./Resources/logo.png" alt="Robot"
@@ -46,20 +46,26 @@
               <a class="nav-link" href="#About">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./Pages/starguardian.html">StarGuardian</a>
+              <a class="nav-link" href="./Pages/starguardian.html"
+                >StarGuardian</a
+              >
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./Pages/products.html">Products (Coming Soon)</a>
-              </li>
+              <a class="nav-link" href="./Pages/products.html"
+                >Products (Coming Soon)</a
+              >
+            </li>
           </ul>
           <i class="bi bi-patch-check-fill text-white"></i>
-          <span class="navbar-text ps-2">V0.0.2</span>
+          <span class="navbar-text ps-2">V0.0.3</span>
         </div>
       </div>
     </nav>
 
     <!--Main-->
-    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
           <div>
@@ -71,7 +77,11 @@
               your personal AI helper now!
             </p>
             <br />
-            <a href="./Pages/products.html"><button class="btn btn-primary btn-lg">Check our Products</button></a>
+            <a href="./Pages/products.html"
+              ><button class="btn btn-primary btn-lg">
+                Check our Products
+              </button></a
+            >
           </div>
           <img
             class="d-none d-md-block img-fluid"
@@ -84,100 +94,200 @@
       </div>
     </section>
 
+    <!--NewsLetter-->
     <section class="bg-primary text-light p-5" id="Home">
-        <div class="container">
-            <div class="d-md-flex justify-content-between align-item-center">
-                <h3 class="mb-3 mb-md-0">Sign Up for our Newsletter</h3>
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-item-center">
+          <h3 class="mb-3 mb-md-0">Sign Up for our Newsletter</h3>
 
-                <div class="input-group news-input">
-                    <input type="text" class="form-control" placeholder="Enter Email">
-                    <button class="btn bg-dark btn-lg text-light" type="button">Sign Up</button>
-                  </div>
-            </div>
+          <div class="input-group news-input">
+            <input type="text" class="form-control" placeholder="Enter Email" />
+            <button class="btn bg-dark btn-lg text-light" type="button">
+              Sign Up
+            </button>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section class="p-5 bg-opacity-100" id="About">
-        <div class="container">
-            <h2 class="text-center text-white">Meet the team</h2>
+    <!--About Us-->
+    <section class="p-5 bg-white" id="About">
+      <div class="container">
+        <h2 class="text-center text-dark">About Us</h2>
+      </div>
+    </section>
+
+    <!--Who We Are-->
+    <section class="bg-warning text-light p-5 mb-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center">
+          <img
+            class="d-none d-md-block img-fluid"
+            src="./Resources/who.png"
+            alt="Robot"
+            width="250"
+            height="250"
+          />
+          <div>
+            <h1 class="text-center text-md-end text-dark justify-content-between">Who we are?</h1>
+            <p class="lead text-center text-md-end text-dark">
+              SmartBotX is a company founded by five students who build custom
+              Discord bots for users who want a bot but don't have the time or
+              expertise to build it themselves. We offer a wide range of
+              features and customization options, so you can create a bot that
+              perfectly meets your needs. We also offer a free consultation, so
+              you can learn more about our services and how we can help you.
+            </p>
+          </div>
         </div>
-        </section>
+      </div>
+    </section>
+
+    <!--Mission-->
+
+    <section class="bg-dark text-light p-5 mb-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Mission & Vision</h1>
+            <p class="lead">
+              Our Mission, Vision
+            </p>
+          </div>
+          <img
+            class="d-none d-md-block img-fluid"
+            src="./Resources/mv.png"
+            alt="Mission&Vision"
+            width="350"
+          />
+        </div>
+      </div>
+    </section>
 
     <!--Meet The Team-->
-    <section class="p-5 bg-primary" >
-        <div class="container">
-            <h2 class="text-center text-white">Meet the team</h2>
-            <p class="text-center text-white">Our team is made up of talented students who are passionate about creating innovative products.</p>
+    <section class="p-5 bg-primary">
+      <div class="container">
+        <h2 class="text-center text-white">Meet the team</h2>
+        <p class="text-center text-white">
+          Our team is made up of talented students who are passionate about
+          creating innovative products.
+        </p>
+      </div>
+      <div class="row g-1 mb-4">
+        <div class="col-md-6 col-lg-3 mx-auto">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img
+                src="./Resources/ciejay.jpg"
+                class="rounded-circle mb-3 w-50"
+                alt="Marc Ciejay D. Macaraig"
+              />
+              <h3 class="card-title mb-3">Marc Ciejay D. Macaraig</h3>
+              <p class="card-text">Leader</p>
+              <a href="https://"
+                ><i class="bi bi-facebook text-dark mx-1"></i
+              ></a>
+              <a href="https://"><i class="bi bi-envelope-at text-dark"></i></a>
+            </div>
+          </div>
         </div>
-        <div class="row g-1 mb-4">
-            <div class="col-md-6 col-lg-3 mx-auto">
-                <div class="card bg-light">
-                    <div class="card-body text-center">
-                        <img src="https://randomuser.me/api/portraits/men/1.jpg" class="rounded-circle mb-3 w-50" alt="Marc Ciejay D. Macaraig">
-                        <h3 class="card-title mb-3">Marc Ciejay D. Macaraig</h3>
-                        <p class="card-text">
-                            Leader
-                        </p>
-                        <a href="https://"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                        <a href="https://"><i class="bi bi-envelope-at text-dark"></i></a>
-                    </div>
-                </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img
+                src="./Resources/pyoni.png"
+                class="rounded-circle mb-3 w-50"
+                alt="Fiona Anne Gaile A. Concejero"
+              />
+              <h3 class="card-title mb-3">Fiona Anne Gaile A. Concejero</h3>
+              <p class="card-text">Product Researcher</p>
+              <a href="https://"
+                ><i class="bi bi-facebook text-dark mx-1"></i
+              ></a>
+              <a href="https://"><i class="bi bi-envelope-at text-dark"></i></a>
             </div>
+          </div>
         </div>
-        <div class="row g-4">
-            <div class="col-md-6 col-lg-3">
-                <div class="card bg-light">
-                    <div class="card-body text-center">
-                        <img src="./Resources/pyoni.png" class="rounded-circle mb-3 w-50" alt="Fiona Anne Gaile A. Concejero">
-                        <h3 class="card-title mb-3"> Fiona Anne Gaile A. Concejero</h3>
-                        <p class="card-text">
-                            Product Researcher
-                        </p>
-                        <a href="https://"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                        <a href="https://"><i class="bi bi-envelope-at text-dark"></i></a>
-                    </div>
-                </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img
+                src="./Resources/Harley.png"
+                class="rounded-circle mb-3 w-50"
+                alt="Vincent Harley R. Jovellano"
+              />
+              <h3 class="card-title mb-3">Vincent Harley R. Jovellano</h3>
+              <p class="card-text">Website & Bot Developer</p>
+              <a href="https://"
+                ><i class="bi bi-facebook text-dark mx-1"></i
+              ></a>
+              <a href="https://"><i class="bi bi-envelope-at text-dark"></i></a>
             </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card bg-light">
-                    <div class="card-body text-center">
-                        <img src="./Resources/Harley.png" class="rounded-circle mb-3 w-50" alt="Vincent Harley R. Jovellano">
-                        <h3 class="card-title mb-3"> Vincent Harley R. Jovellano</h3>
-                        <p class="card-text">
-                            Website & Bot Developer
-                        </p>
-                        <a href="https://"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                        <a href="https://"><i class="bi bi-envelope-at text-dark"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card bg-light">
-                    <div class="card-body text-center">
-                        <img src="./Resources/cube.jpg" class="rounded-circle mb-3 w-50" alt="Vhea Mhel I. Cube">
-                        <h3 class="card-title mb-3">Vhea Mhel I. Cube</h3>
-                        <p class="card-text">
-                            Product Researcher
-                        </p>
-                        <a href="https://"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                        <a href="https://"><i class="bi bi-envelope-at text-dark"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card bg-light">
-                    <div class="card-body text-center">
-                        <img src="./Resources/antunio.png" class="rounded-circle mb-3 w-50" alt="Timothy John A. Antonio">
-                        <h3 class="card-title mb-3"> Timothy John A. Antonio</h3>
-                        <p class="card-text">
-                            Product Researcher
-                        </p>
-                        <a href="https://"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                        <a href="https://"><i class="bi bi-envelope-at text-dark"></i></a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img
+                src="./Resources/cube.jpg"
+                class="rounded-circle mb-3 w-50"
+                alt="Vhea Mhel I. Cube"
+              />
+              <h3 class="card-title mb-3">Vhea Mhel Ignacio Cube</h3>
+              <p class="card-text">Product Researcher</p>
+              <a href="https://"
+                ><i class="bi bi-facebook text-dark mx-1"></i
+              ></a>
+              <a href="https://"><i class="bi bi-envelope-at text-dark"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img
+                src="./Resources/antunio.png"
+                class="rounded-circle mb-3 w-50"
+                alt="Timothy John A. Antonio"
+              />
+              <h3 class="card-title mb-3">Timothy John A. Antonio</h3>
+              <p class="card-text">Social Media Manager</p>
+              <a href="https://"
+                ><i class="bi bi-facebook text-dark mx-1"></i
+              ></a>
+              <a href="https://"><i class="bi bi-envelope-at text-dark"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-light p-5 text-center text-sm-start">
+      <div class="container">
+        <h1 class="text-dark text-center">Get in touch</h1>
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <hr class="text-dark">
+            <p class="text-dark lead">Email: <span class="text-dark">smartbotx@webname.com</span></p> 
+            <hr class="text-dark">
+            <p class="text-dark lead">Contact: <span class="text-dark">+639-143-234-675</span></p> 
+            <hr class="text-dark">
+            <p class="text-dark">-OR-</p>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Enter Email">
+              <button class="btn bg-dark btn-lg text-light" type="button">Chat Us</button>
+            </div>
+          </div>
+          <img
+            class="d-none d-md-block img-fluid"
+            src="./Resources/contact.png"
+            alt="Mission&Vision" 
+            width="350"
+          />
+        </div>
+      </div>
     </section>
 
     <script
@@ -186,4 +296,22 @@
       crossorigin="anonymous"
     ></script>
   </body>
+  <footer>
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <p>
+              © SmartBot X - 2023
+            </p>
+            <a href="https://github.com/SmartBotX/SmartBotX-Website/issues/new">Found a bug? Report here!</a>
+          </div>
+          <a href="#navi"
+          ><button class="btn btn-primary btn-lg">
+            Go Back Up
+          </button></a>
+        </div>
+      </div>
+    </section>
+  </footer>
 </html>
