@@ -14,6 +14,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <script src="../Resources/js/index.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="../Resources/css/styles.css" rel="stylesheet" />
@@ -73,8 +74,11 @@
                     the play check, providing memes and facts.
                 </p>
                 <br />
-                <form action="https://discord.com/api/oauth2/authorize\?client_id=1107997377492693102&permissions=19235547376759&scope=bot">
-                    <button class="btn btn-primary btn-lg">
+                <form id="discordForm" action="https://discord.com/oauth2/authorize" method="GET">
+                    <input type="hidden" name="client_id" value="1107997377492693102">
+                    <input type="hidden" name="permissions" value="19235547376759">
+                    <input type="hidden" name="scope" value="bot">
+                    <button type="submit" class="btn btn-primary btn-lg">
                         Add to your server
                     </button>
                 </form>
@@ -145,7 +149,7 @@
                             <br />
                             This feature allows users to ban other users from the server. To use this feature, simply type "ban" followed by the username of the user you want to ban in the chat and the bot will ban the user.
                             <br /><br />
-                            <b>- Scam Detection (Feature Available!)</b> 
+                            <b>- Scam Detection (Feature Available)</b>
                             <br />
                             This feature allows users to detect scams. To use this feature, simply type "scam" followed by the link you want to check in the chat and the bot will respond with whether or not the link is a scam.
                             <br /><br />
